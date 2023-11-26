@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8a8f3429-b547-4e09-b277-7f2a2ccb98ec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>jogos.py</StartupFile>
+    <StartupFile>forca.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
     <Compile Include="jogos.py" />
     <Compile Include="MeuPrimeiroJogoEmPhyton.py" />
     <Compile Include="adivinhacao.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="palavras.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
